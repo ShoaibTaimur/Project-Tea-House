@@ -12,6 +12,48 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .fun-footer {
+            text-align: center;
+            padding: 16px;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 14px;
+            color: #000000;
+            background: #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .fun-footer::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg,
+                    rgba(255, 251, 29, 0.904),
+                    rgba(228, 205, 3, 0.863),
+                    rgba(236, 250, 47, 0.815));
+            animation: continuous-glow 6s linear infinite;
+            filter: blur(30px);
+            z-index: 0;
+        }
+
+        .fun-footer * {
+            position: relative;
+            z-index: 1;
+        }
+
+        @keyframes continuous-glow {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     </style>
     <title>Tea House</title>
     <link rel="shortcut icon" href="images/Gemini_Generated_Image_hjedj9hjedj9hjed.png" type="image/x-icon" />
@@ -96,23 +138,33 @@
                     <div class="h-[165px] sm:w-[238px] bg-linear-to-r from-[#e0e0e0] to-[#FFFFFF] rounded-[10px]"></div>
                 </div>
                 <div class="flex flex-col mb-[20px] xl:mb-0 items-center xl:block">
-                    <h1 class="text-[35px] font-extrabold xl:w-[413px] mb-[20px] leading-[61px] text-center xl:text-left">Great Tea, Freshly
+                    <h1
+                        class="text-[35px] font-extrabold xl:w-[413px] mb-[20px] leading-[61px] text-center xl:text-left">
+                        Great Tea, Freshly
                         Presented</h1>
-                    <p class="text-[12px] font-medium text-[#777777] w-auto xl:w-[582px] mb-[30px] text-center xl:text-left">The meaning of gong cha is
+                    <p
+                        class="text-[12px] font-medium text-[#777777] w-auto xl:w-[582px] mb-[30px] text-center xl:text-left">
+                        The meaning of gong cha is
                         chanese is to provide the best tea to emperor from all possessions . It represents the highest
                         quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its
                         custoers because of good words of mouth and unique customized service orginated from Taiwan.</p>
                     <h2 class="text-[30px] xl:text-[20px] font-extrabold mb-[10px]">Unique Taste</h2>
-                    <p class="text-[14px] font-medium text-[#777777] w-auto sm:w-[458px] mb-[20px] text-center xl:text-left">A Unique and different style
+                    <p
+                        class="text-[14px] font-medium text-[#777777] w-auto sm:w-[458px] mb-[20px] text-center xl:text-left">
+                        A Unique and different style
                         from other teapots gives a luxurious and minimalist impression</p>
                     <h3 class="text-[30px] xl:text-[20px] font-extrabold mb-[10px]">Premium Quality</h3>
-                    <p class="text-[14px] font-medium text-[#777777] w-auto sm:w-[458px] text-center xl:text-left">Premium Quality that makes tea more
+                    <p class="text-[14px] font-medium text-[#777777] w-auto sm:w-[458px] text-center xl:text-left">
+                        Premium Quality that makes tea more
                         elegant and more durable when you use it.</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="fun-footer">
+        Made with ☕💻 and the occasional existential crisis 🤯<br />
+        © MD Shoaib Taimur 🚀✨
+    </footer>
 </body>
 
 </html>
