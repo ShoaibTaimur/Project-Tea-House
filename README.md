@@ -36,10 +36,10 @@ It blends elegant design, clean layout, and minimal aesthetics — all powered b
 
 ### 💻 Preview
 
-![Tea House Screenshot](https://shoaibtaimur.github.io/Project-Tea-House/images/1.png)
-![Tea House Screenshot](https://shoaibtaimur.github.io/Project-Tea-House/images/2.png)
-![Tea House Screenshot](https://shoaibtaimur.github.io/Project-Tea-House/images/3.png)
-![Tea House Screenshot](https://shoaibtaimur.github.io/Project-Tea-House/images/4.png)
+![Tea House Screenshot](images/1.png)
+![Tea House Screenshot](images/2.png)
+![Tea House Screenshot](images/3.png)
+![Tea House Screenshot](images/4.png)
 
 ---
 ## 🚀 Getting Started
