@@ -89,6 +89,8 @@ Project-Tea-House/
 📅 **Year:** 2025
 💬 “Crafted with passion and a cup of tea.”
 
+Designed is inspired and copied from open source.
+
 ---
 
 ## 🪪 License
